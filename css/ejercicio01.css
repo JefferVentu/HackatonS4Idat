@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: calc(100vh - 30px);
+    background-color: gainsboro;
+
+    display: grid;
+    place-items: center;
+}
+
+footer{
+    height: 30px;
+    background-color: gainsboro;
+    display: grid;
+    place-items: center;
+}
+
+.tarjeta {
+    padding: 17px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.imagenForma{
+    width: 312.81px; 
+    height: 300px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.chips{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.bottom{
+    color: blue;
+    display: grid;
+    place-items: center;
+    margin: 20px;
+    border: 1px;
+    background-color: skyblue;
+}
+
+p{
+    color: gray;
+}
