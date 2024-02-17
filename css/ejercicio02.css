@@ -14,3 +14,48 @@ body{
     display: grid;
     place-items: center;
 }
+/*
+.padre{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+.cuadrado-rojo{
+    width: 480px;
+    height: 553px;
+    background-color: #cc3843;
+
+    position: relative;
+}
+
+.cuadrado-azul{
+    width: 654px;
+    height: 479px;
+    background-color: #0c1f2c;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo {
+    height: 470px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}
