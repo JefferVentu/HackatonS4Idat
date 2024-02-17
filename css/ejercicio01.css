@@ -48,10 +48,14 @@ footer{
 .bottom{
     color: blue;
     display: grid;
-    place-items: center;
     margin: 20px;
+    margin-left: 33.33%;
     border: 1px;
     background-color: skyblue;
+    padding: 10px; 
+    background: auto;
+    border-radius: 15px;
+    text-align: center;
 }
 
 p{
